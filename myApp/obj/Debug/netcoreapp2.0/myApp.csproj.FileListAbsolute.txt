@@ -1,0 +1,11 @@
+/media/data/dotnetcore_hosting/myApp/bin/Debug/netcoreapp2.0/myApp.deps.json
+/media/data/dotnetcore_hosting/myApp/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.json
+/media/data/dotnetcore_hosting/myApp/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.dev.json
+/media/data/dotnetcore_hosting/myApp/bin/Debug/netcoreapp2.0/myApp.dll
+/media/data/dotnetcore_hosting/myApp/bin/Debug/netcoreapp2.0/myApp.pdb
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.csproj.CoreCompileInputs.cache
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.AssemblyInfoInputs.cache
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.AssemblyInfo.cs
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.dll
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.pdb
+/media/data/dotnetcore_hosting/myApp/obj/Debug/netcoreapp2.0/myApp.csprojResolveAssemblyReference.cache
