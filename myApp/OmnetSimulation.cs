@@ -29,10 +29,13 @@ namespace OmnetServices
 
 		private delegate void SetGlobalTimerSecondsType(int duration);
 		private SetGlobalTimerSecondsType _SetGlobalTimerSeconds = null;
+        
+		private delegate ulong GetGlobalTimeType();
+		private GetGlobalTimeType _GetGlobalTime = null;
 
 		private static readonly OmnetSimulation instance = new OmnetSimulation();
 
-		public static OmnetSimulation GetInstance()
+		public static OmnetSimulation Instance()
 		{
 			return instance;
 		}
@@ -48,6 +51,7 @@ namespace OmnetServices
 			_WaitSeconds = runtimehost.LoadFunction<WaitSecondsType>("daa_wait_s");
 			_SetGlobalTimerMillisecounds = runtimehost.LoadFunction<SetGlobalTimerMillisecoundsType>("daa_set_global_timer_ms");
 			_SetGlobalTimerSeconds = runtimehost.LoadFunction<SetGlobalTimerSecondsType>("daa_set_global_timer_s");
+			_GetGlobalTime = runtimehost.LoadFunction<GetGlobalTimeType>("daa_getGlobalTime");
 		}
 
 		public void Test()
@@ -89,6 +93,11 @@ namespace OmnetServices
         {
 			_SetGlobalTimerSeconds(duration);
         }
+
+		public ulong GetGlobalTime() // in picoseconds ( 1ps = 1*10E-18s )
+		{
+			return _GetGlobalTime();
+		}
        
 	}
 }
