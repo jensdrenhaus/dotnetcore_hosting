@@ -670,9 +670,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/data/dotnetcore_hosting/myApp/myApp.csproj",
-      "projectName": "myApp",
-      "projectPath": "/media/data/dotnetcore_hosting/myApp/myApp.csproj",
+      "projectUniqueName": "/media/data/dotnetcore_hosting/myApp/SampleApp.csproj",
+      "projectName": "SampleApp",
+      "projectPath": "/media/data/dotnetcore_hosting/myApp/SampleApp.csproj",
       "packagesPath": "/home/jens/.nuget/packages/",
       "outputPath": "/media/data/dotnetcore_hosting/myApp/obj/",
       "projectStyle": "PackageReference",

@@ -8,4 +8,7 @@
   <ItemGroup>
     <Compile Remove="ExampleApp.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="util\" />
+  </ItemGroup>
 </Project>
