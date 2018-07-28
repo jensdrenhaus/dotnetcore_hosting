@@ -21,6 +21,9 @@ namespace OmnetServices
 
     public class OmnetInterface
     {
+	    public ulong TimeAtStart { get; set; }
+	    public DateTime DateTimeOffsetAtStart { get; set; }
+	    
 	    /// <summary>
 	    ///     Creates the configured actor system.
 	    /// </summary>
@@ -34,6 +37,9 @@ namespace OmnetServices
                     actor {{
                         # default-dispatcher.executor = ""current-context-executor""
                         # default-dispatcher = ""calling-thread-dispatcher""
+					
+						# The provider forces the usage of calling thread dispatcher, this way all code is executed on
+						# the main thread.
                         provider = ""{typeof(OmnetActorRefProvider).AssemblyQualifiedName}""
                         debug {{
                             receive = on,
@@ -43,6 +49,7 @@ namespace OmnetServices
                             unhandled = off
                         }}
                     }}
+					# This scheduler usees omnet for scheduling
                     scheduler {{ implementation = ""{typeof(OmnetScheduler).AssemblyQualifiedName}"" }}
                 }}
                 ";
@@ -62,12 +69,16 @@ namespace OmnetServices
         {
             Console.WriteLine("C# : initSimulation is called");
 
+	        Instance.TimeAtStart = OmnetSimulation.Instance().GetGlobalTime();
+	        Instance.DateTimeOffsetAtStart = DateTime.Now;
+	        
             //Example
-            OmnetSimulation.Instance().CreateNode(1);
-            OmnetSimulation.Instance().CreateNode(2);
-            OmnetSimulation.Instance().GetGlobalTime();
+            // OmnetSimulation.Instance().CreateNode(1);
+            // OmnetSimulation.Instance().CreateNode(2);
+            // OmnetSimulation.Instance().GetGlobalTime();
 	        // Context = new BulkExecutingSynchronizationContext();
 	        // SynchronizationContext.SetSynchronizationContext(Context);
+	        
 	        Console.WriteLine("Received init from omnet++.");
 	        // Create and configure the actor system.
 	        CreateConfiguredActorSystem();
@@ -100,7 +111,6 @@ namespace OmnetServices
 		public static void timerNotify(ulong nodeId)
         {
             Console.WriteLine("C# : timerNotify is called with nodeId=" + nodeId);
-
 			//Example
             //...
         }
@@ -110,10 +120,15 @@ namespace OmnetServices
             Console.WriteLine("C# : globalTimerNotify is called");
 
 			//Example
-            OmnetSimulation.Instance().Send(1, 2, 10, 123);
+            // OmnetSimulation.Instance().Send(1, 2, 10, 123);
             Console.WriteLine("Time: " + OmnetSimulation.Instance().GetGlobalTime() + "ps");
-            OmnetSimulation.Instance().SetGlobalTimerSeconds(2);
+            // OmnetSimulation.Instance().SetGlobalTimerSeconds(2);
+	        Instance.OmnetGlobalTimerNotify?.Invoke();
         }
+
+	    public delegate void OnOmnetGlobalTimerNotify();
+
+	    public event OnOmnetGlobalTimerNotify OmnetGlobalTimerNotify;
 	    
 	    #region Start
 	    protected virtual void OnOmneTStart()

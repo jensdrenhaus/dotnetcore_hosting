@@ -36,11 +36,6 @@ namespace OmnetServices
 
 		// ReSharper disable once InconsistentNaming
 		private static readonly OmnetSimulation instance = new OmnetSimulation();
-		
-		// TODO !!!
-		public ulong TimeAtStart { get; set; }
-		// TODO !!!
-		public DateTime DateTimeOffsetAtStart { get; set; }
 
 		public static OmnetSimulation Instance() => instance;
 

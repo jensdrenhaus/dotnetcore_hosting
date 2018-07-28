@@ -13,7 +13,7 @@ namespace PhyNetFlow.OMNeT
         {
             Console.WriteLine("Received a message.");
             // After 1 second reply with a new echo message.
-            // Context.System.Scheduler.ScheduleTellOnce(TimeSpan.FromMilliseconds(1000), Sender, new Echo(), Self);
+            Context.System.Scheduler.ScheduleTellOnce(TimeSpan.FromMilliseconds(1000), Sender, new Echo(), Self);
         }
 
         public static Props Props()

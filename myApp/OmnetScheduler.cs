@@ -14,11 +14,11 @@ namespace PhyNetFlow.OMNeT
     public class OmnetScheduler : IScheduler, IAdvancedScheduler
     {
         private readonly ConcurrentDictionary<long,ConcurrentQueue<ScheduledItem>> _scheduledWork;
-        public TimeSpan MonotonicClock => TimeSpan.FromMilliseconds(OmnetSimulation.Instance().GetGlobalTime() - OmnetSimulation.Instance().TimeAtStart);
-        public TimeSpan HighResMonotonicClock => TimeSpan.FromMilliseconds(OmnetSimulation.Instance().GetGlobalTime() - OmnetSimulation.Instance().TimeAtStart);
+        public TimeSpan MonotonicClock => TimeSpan.FromMilliseconds(OmnetSimulation.Instance().GetGlobalTime() - OmnetInterface.Instance.TimeAtStart);
+        public TimeSpan HighResMonotonicClock => TimeSpan.FromMilliseconds(OmnetSimulation.Instance().GetGlobalTime() - OmnetInterface.Instance.TimeAtStart);
 
         protected DateTimeOffset TimeNow =>
-            OmnetSimulation.Instance().DateTimeOffsetAtStart.AddMilliseconds(OmnetSimulation.Instance().GetGlobalTime());
+            OmnetInterface.Instance.DateTimeOffsetAtStart.AddMilliseconds(OmnetSimulation.Instance().GetGlobalTime());
 
         /// <summary>
         /// TBD
@@ -28,7 +28,7 @@ namespace PhyNetFlow.OMNeT
         public OmnetScheduler(Config schedulerConfig, ILoggingAdapter log)
         {
             _scheduledWork = new ConcurrentDictionary<long, ConcurrentQueue<ScheduledItem>>();
-            // TODO: OmnetInterface.Instance.OMNeTTimerNotify += InstanceOnOmneTTimerNotify;
+            OmnetInterface.Instance.OmnetGlobalTimerNotify += InstanceOnOmneTTimerNotify;
         }
 
         private void InstanceOnOmneTTimerNotify()
@@ -67,6 +67,9 @@ namespace PhyNetFlow.OMNeT
         private void InternalSchedule(TimeSpan? initialDelay, TimeSpan delay, ICanTell receiver, object message, Action action,
             IActorRef sender, ICancelable cancelable, int deliveryCount = 0)
         {
+            // TODO: This probably needs adjustment for repetative events?
+            OmnetSimulation.Instance().SetGlobalTimerMillisecounds(delay.Milliseconds + initialDelay?.Milliseconds ?? 0);
+            
             var scheduledTime = TimeNow.Add(initialDelay ?? delay).UtcTicks;
             if (!_scheduledWork.TryGetValue(scheduledTime, out var tickItems))
             {

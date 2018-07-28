@@ -7,6 +7,7 @@ using OmnetServices;
 using PhyNetFlow.Core.Actors;
 using PhyNetFlow.Core.Akka;
 
+// ReSharper disable once CheckNamespace
 namespace PhyNetFlow.OMNeT
 {
 
@@ -140,7 +141,7 @@ namespace PhyNetFlow.OMNeT
                 return null;
             });
 
-            When(State.Running, e => { return null; });
+            When(State.Running, e => null);
 
             // When transitioning to Running, create OmneT instances.
             OnTransition((state, nextState) =>
