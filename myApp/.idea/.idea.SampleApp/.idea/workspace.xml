@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b11adee9-68b6-4299-b8fe-b43d46f916b7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SampleApp/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkExecutingSynchronizationContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CallingThreadExecutor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoActor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmnetInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OmnetInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmnetScheduler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OmnetScheduler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmnetSimulation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OmnetSimulation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OmnetInterface.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OmnetInterface.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+              <folding>
+                <marker date="1532772144318" expanded="false" signature="6:140" ph="..." />
+                <marker date="1532772144318" expanded="true" signature="142:223" ph="/* ReSharper disable InconsistentNaming ... */" />
+                <marker date="1532772144318" expanded="true" signature="247:6493" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="251:694" ph="/* Paste your code into the respective callback functions. ... */" />
+                <marker date="1532772144318" expanded="true" signature="727:6491" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="846:929" ph="///     Creates the configured actor system. ... " />
+                <marker date="1532772144318" expanded="true" signature="984:2272" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="2327:2375" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="2529:4261" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="2759:3077" ph="/* Example ... */" />
+                <marker date="1532772144318" expanded="true" signature="3354:3433" ph="/* Create and configure the PhyNet runtime. ... */" />
+                <marker date="1532772144318" expanded="true" signature="3773:3958" ph="/* Setup the PhyNet and the plugin. ... */" />
+                <marker date="1532772144318" expanded="true" signature="4436:4570" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="4533:4560" ph="/* Example ... */" />
+                <marker date="1532772144318" expanded="true" signature="4612:4989" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="4694:4766" ph="/* Example ... */" />
+                <marker date="1532772144318" expanded="true" signature="5124:5571" ph="Start" />
+                <marker date="1532772144318" expanded="true" signature="5180:5222" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="5406:5555" ph="{...}" />
+                <marker date="1532772144318" expanded="false" signature="5578:6234" ph="Receiving" />
+                <marker date="1532772144318" expanded="true" signature="5685:5754" ph="{...}" />
+                <marker date="1532772144318" expanded="true" signature="6039:6218" ph="{...}" />
+                <marker date="1532772144318" expanded="false" signature="6240:6484" ph="Shutdown" />
+                <marker date="1532772144318" expanded="true" signature="6359:6468" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+              <folding>
+                <marker date="1532772029151" expanded="false" signature="6:213" ph="..." />
+                <marker date="1532772029151" expanded="true" signature="282:8593" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="383:8591" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="475:495" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="583:604" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="631:853" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="880:960" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="1275:5677" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="1519:1606" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="2329:2387" ph="/* Define the state machine. ... */" />
+                <marker date="1532772029151" expanded="true" signature="2457:2618" ph="/* TODO On simulationReady -&gt; create one actor and create a broadcast message. ... */" />
+                <marker date="1532772029151" expanded="true" signature="2661:3008" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="2732:2824" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="2871:2964" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="3110:3315" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="3170:3272" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="3416:3633" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="3487:3589" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="3649:3967" ph="/* This should be called after PhyNetContainer is ready, during the omnet++ initialization phase. ... */" />
+                <marker date="1532772029151" expanded="true" signature="4015:4524" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="4095:4510" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="4583:4772" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="4644:4728" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="4937:5197" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="4999:5183" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="5231:5500" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="5315:5456" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="5550:5665" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="5687:5860" ph="/// Creates an actor in the actorsystem and in omnet++. ... " />
+                <marker date="1532772029151" expanded="true" signature="5969:6240" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="6283:6349" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="6441:6695" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="6627:6685" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="6743:6808" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="6855:7291" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="7194:7281" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="7301:7511" ph="///  ... " />
+                <marker date="1532772029151" expanded="true" signature="7606:8417" ph="{...}" />
+                <marker date="1532772029151" expanded="true" signature="7899:8381" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallingThreadDispatcher.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallingThreadDispatcher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1521543012311" expanded="true" signature="1:402" ph="/* ----------------------------------------------------------------------- ... */" />
+                <marker date="1521543012311" expanded="false" signature="410:464" ph="..." />
+                <marker date="1521543012311" expanded="true" signature="492:2029" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="499:543" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="628:1181" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="643:793" ph="/// TBD  ... " />
+                <marker date="1521543012311" expanded="true" signature="929:949" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="959:1046" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="1101:1175" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="1187:1231" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="1292:2027" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="1307:1360" ph="/// TBD  ... " />
+                <marker date="1521543012311" expanded="true" signature="1437:1540" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="1644:1664" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="1674:1768" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="1827:1870" ph="{...}" />
+                <marker date="1521543012311" expanded="true" signature="1880:1932" ph="/// TBD ... " />
+                <marker date="1521543012311" expanded="true" signature="1975:2021" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <marker date="1532615287066" expanded="true" signature="34:224" ph="{...}" />
+                <marker date="1532615287066" expanded="true" signature="58:222" ph="{...}" />
+                <marker date="1532615287066" expanded="true" signature="95:219" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoActor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EchoActor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding>
+                <marker date="1532772001783" expanded="false" signature="6:31" ph="..." />
+                <marker date="1532772001783" expanded="true" signature="59:608" ph="{...}" />
+                <marker date="1532772001783" expanded="true" signature="116:606" ph="{...}" />
+                <marker date="1532772001783" expanded="true" signature="148:168" ph="{...}" />
+                <marker date="1532772001783" expanded="true" signature="227:476" ph="{...}" />
+                <marker date="1532772001783" expanded="true" signature="513:600" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OmnetActorRefProvider.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OmnetActorRefProvider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1532678462833" expanded="false" signature="6:154" ph="..." />
+                <marker date="1532678462833" expanded="true" signature="182:4640" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="242:4638" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="499:618" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="676:763" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="813:882" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="919:993" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="1076:1166" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="1223:1305" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="1315:1821" ph="/// Initialized SimulationActorRefs when necessary and LocalActorRefs otherwise. ... " />
+                <marker date="1532678462833" expanded="true" signature="2023:3395" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="2182:2439" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="2453:2711" ph="/* If the instance that needs to be created is ... */" />
+                <marker date="1532678462833" expanded="true" signature="2786:2989" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="3450:3535" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="3598:3688" ph="{...}" />
+                <marker date="1532678462833" expanded="true" signature="3751:3845" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OmnetSimulation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OmnetSimulation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
+              <folding>
+                <marker date="1532771601082" expanded="true" signature="6:78" ph="..." />
+                <marker date="1532771601082" expanded="true" signature="144:3208" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="176:3206" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="1428:2249" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2271:2328" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2362:2412" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2456:2496" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2568:2630" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2694:2750" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2801:2861" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="2918:2981" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="3032:3089" ph="{...}" />
+                <marker date="1532771601082" expanded="true" signature="3159:3195" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OmnetScheduler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OmnetScheduler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+              <folding>
+                <marker date="1532772294602" expanded="false" signature="6:176" ph="..." />
+                <marker date="1532772294602" expanded="true" signature="204:10674" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="211:318" ph="/* https://msdn.microsoft.com/en-us/library/367eeye0.aspx ... */" />
+                <marker date="1532772294602" expanded="true" signature="383:10672" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="971:1119" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="1194:1399" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="1450:1595" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="1605:1657" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="1687:2704" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="1893:2694" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="2025:2304" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="2517:2680" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="2910:3771" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="3286:3445" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="3780:4014" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="4120:4222" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="4231:4514" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="4644:4752" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="4761:5049" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="5199:5312" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="5321:5658" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="5832:5951" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="5960:6150" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="6238:6333" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="6342:6483" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="6547:6642" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="6651:6895" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="7015:7127" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="7137:7332" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="7428:7534" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="7543:7595" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="7666:7718" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="7761:7814" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="7823:7875" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="7912:10666" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="7935:7995" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8063:8123" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8184:8244" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8313:8373" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8434:8494" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8554:8614" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8675:8735" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8799:8859" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="8922:8982" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="9051:9111" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="9175:9235" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="9277:9523" ph="{...}" />
+                <marker date="1532772294602" expanded="true" signature="9308:9376" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="9418:9486" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="9536:10050" ph="/// TBD ... " />
+                <marker date="1532772294602" expanded="true" signature="10270:10656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>before</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Plugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OmnetScheduler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/util/NativeLibrary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CallingThreadDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OmnetInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OmnetActorRefProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EchoActor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OmnetSimulation.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CallingThreadDispatcher.cs" />
+        <option value="$PROJECT_DIR$/OmnetApplication.cs" />
+        <option value="$PROJECT_DIR$/OMNeTActorRefProvider.cs" />
+        <option value="$PROJECT_DIR$/OmnetActorRefProvider.cs" />
+        <option value="$PROJECT_DIR$/OMNeTScheduler.cs" />
+        <option value="$PROJECT_DIR$/OmnetSimulation.cs" />
+        <option value="$PROJECT_DIR$/EchoActor.cs" />
+        <option value="$PROJECT_DIR$/Plugin.cs" />
+        <option value="$PROJECT_DIR$/OmnetInterface.cs" />
+        <option value="$PROJECT_DIR$/OmnetScheduler.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SampleApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SampleApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SampleApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b11adee9-68b6-4299-b8fe-b43d46f916b7" name="Default" comment="" />
+      <created>1532615308273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532615308273</updated>
+      <workItem from="1532615312072" duration="1379000" />
+      <workItem from="1532675762425" duration="2803000" />
+      <workItem from="1532765070166" duration="1724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5906000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32876712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/OmnetInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <marker date="1532772144318" expanded="false" signature="6:140" ph="..." />
+            <marker date="1532772144318" expanded="true" signature="142:223" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1532772144318" expanded="true" signature="247:6493" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="251:694" ph="/* Paste your code into the respective callback functions. ... */" />
+            <marker date="1532772144318" expanded="true" signature="727:6491" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="846:929" ph="///     Creates the configured actor system. ... " />
+            <marker date="1532772144318" expanded="true" signature="984:2272" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2327:2375" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2529:4261" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2759:3077" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="3354:3433" ph="/* Create and configure the PhyNet runtime. ... */" />
+            <marker date="1532772144318" expanded="true" signature="3773:3958" ph="/* Setup the PhyNet and the plugin. ... */" />
+            <marker date="1532772144318" expanded="true" signature="4436:4570" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4533:4560" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="4612:4989" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4694:4766" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="5124:5571" ph="Start" />
+            <marker date="1532772144318" expanded="true" signature="5180:5222" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="5406:5555" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="5578:6234" ph="Receiving" />
+            <marker date="1532772144318" expanded="true" signature="5685:5754" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="6039:6218" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="6240:6484" ph="Shutdown" />
+            <marker date="1532772144318" expanded="true" signature="6359:6468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3465">
+          <caret line="238" column="39" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+          <folding>
+            <marker date="1532772029151" expanded="false" signature="6:213" ph="..." />
+            <marker date="1532772029151" expanded="true" signature="282:8593" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="383:8591" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="475:495" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="583:604" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="631:853" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="880:960" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="1275:5677" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="1519:1606" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2329:2387" ph="/* Define the state machine. ... */" />
+            <marker date="1532772029151" expanded="true" signature="2457:2618" ph="/* TODO On simulationReady -&gt; create one actor and create a broadcast message. ... */" />
+            <marker date="1532772029151" expanded="true" signature="2661:3008" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2732:2824" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2871:2964" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3110:3315" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3170:3272" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3416:3633" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3487:3589" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3649:3967" ph="/* This should be called after PhyNetContainer is ready, during the omnet++ initialization phase. ... */" />
+            <marker date="1532772029151" expanded="true" signature="4015:4524" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4095:4510" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4583:4772" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4644:4728" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4937:5197" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4999:5183" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5231:5500" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5315:5456" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5550:5665" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5687:5860" ph="/// Creates an actor in the actorsystem and in omnet++. ... " />
+            <marker date="1532772029151" expanded="true" signature="5969:6240" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6283:6349" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6441:6695" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6627:6685" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6743:6808" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6855:7291" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7194:7281" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7301:7511" ph="///  ... " />
+            <marker date="1532772029151" expanded="true" signature="7606:8417" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7899:8381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetActorRefProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1532678462833" expanded="false" signature="6:154" ph="..." />
+            <marker date="1532678462833" expanded="true" signature="182:4640" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="242:4638" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="499:618" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="676:763" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="813:882" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="919:993" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1076:1166" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1223:1305" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1315:1821" ph="/// Initialized SimulationActorRefs when necessary and LocalActorRefs otherwise. ... " />
+            <marker date="1532678462833" expanded="true" signature="2023:3395" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="2182:2439" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="2453:2711" ph="/* If the instance that needs to be created is ... */" />
+            <marker date="1532678462833" expanded="true" signature="2786:2989" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3450:3535" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3598:3688" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3751:3845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetSimulation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding>
+            <marker date="1532771601082" expanded="true" signature="6:78" ph="..." />
+            <marker date="1532771601082" expanded="true" signature="144:3208" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="176:3206" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="1428:2249" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2271:2328" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2362:2412" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2456:2496" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2568:2630" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2694:2750" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2801:2861" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2918:2981" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3032:3089" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3159:3195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetScheduler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+          <folding>
+            <marker date="1532772294602" expanded="false" signature="6:176" ph="..." />
+            <marker date="1532772294602" expanded="true" signature="204:10674" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="211:318" ph="/* https://msdn.microsoft.com/en-us/library/367eeye0.aspx ... */" />
+            <marker date="1532772294602" expanded="true" signature="383:10672" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="971:1119" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="1194:1399" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1450:1595" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1605:1657" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="1687:2704" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1893:2694" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2025:2304" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2517:2680" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2910:3771" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="3286:3445" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="3780:4014" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="4120:4222" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="4231:4514" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="4644:4752" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="4761:5049" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="5199:5312" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="5321:5658" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="5832:5951" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="5960:6150" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="6238:6333" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="6342:6483" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="6547:6642" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="6651:6895" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7015:7127" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7137:7332" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7428:7534" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7543:7595" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7666:7718" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7761:7814" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7823:7875" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7912:10666" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7935:7995" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8063:8123" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8184:8244" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8313:8373" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8434:8494" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8554:8614" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8675:8735" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8799:8859" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8922:8982" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9051:9111" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9175:9235" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9277:9523" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="9308:9376" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9418:9486" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9536:10050" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="10270:10656" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <marker date="1532772144318" expanded="false" signature="6:140" ph="..." />
+            <marker date="1532772144318" expanded="true" signature="142:223" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1532772144318" expanded="true" signature="247:6493" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="251:694" ph="/* Paste your code into the respective callback functions. ... */" />
+            <marker date="1532772144318" expanded="true" signature="727:6491" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="846:929" ph="///     Creates the configured actor system. ... " />
+            <marker date="1532772144318" expanded="true" signature="984:2272" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2327:2375" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2529:4261" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2759:3077" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="3354:3433" ph="/* Create and configure the PhyNet runtime. ... */" />
+            <marker date="1532772144318" expanded="true" signature="3773:3958" ph="/* Setup the PhyNet and the plugin. ... */" />
+            <marker date="1532772144318" expanded="true" signature="4436:4570" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4533:4560" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="4612:4989" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4694:4766" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="5124:5571" ph="Start" />
+            <marker date="1532772144318" expanded="true" signature="5180:5222" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="5406:5555" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="5578:6234" ph="Receiving" />
+            <marker date="1532772144318" expanded="true" signature="5685:5754" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="6039:6218" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="6240:6484" ph="Shutdown" />
+            <marker date="1532772144318" expanded="true" signature="6359:6468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetSimulation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <marker date="1532771601082" expanded="true" signature="6:78" ph="..." />
+            <marker date="1532771601082" expanded="true" signature="144:3208" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="176:3206" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="1428:2249" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2271:2328" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2362:2412" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2456:2496" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2568:2630" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2694:2750" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2801:2861" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2918:2981" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3032:3089" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3159:3195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallingThreadDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <marker date="1521543012311" expanded="true" signature="1:402" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1521543012311" expanded="true" signature="410:464" ph="..." />
+            <marker date="1521543012311" expanded="true" signature="499:543" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="628:1181" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="643:793" ph="/// TBD  ... " />
+            <marker date="1521543012311" expanded="true" signature="929:949" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="959:1046" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1101:1175" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1187:1231" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1292:2027" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1307:1360" ph="/// TBD  ... " />
+            <marker date="1521543012311" expanded="true" signature="1437:1540" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1644:1664" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1674:1768" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1827:1870" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1880:1932" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1975:2021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NuGet.Config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="122" column="20" lean-forward="true" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/NativeLibrary.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1532615287077" expanded="false" signature="6:51" ph="..." />
+            <marker date="1532615287077" expanded="true" signature="82:2559" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="89:268" ph="/// Represents a native shared library opened by the operating system. ... " />
+            <marker date="1532615287077" expanded="true" signature="313:2557" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="491:590" ph="/// The operating system handle of the loaded library. ... " />
+            <marker date="1532615287077" expanded="true" signature="638:834" ph="/// Constructs a new NativeLibrary using the platform's default library loader. ... " />
+            <marker date="1532615287077" expanded="true" signature="876:988" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="998:1503" ph="/// Loads a function whose signature matches the given delegate type's signature. ... " />
+            <marker date="1532615287077" expanded="true" signature="1549:1893" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="1679:1808" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="1903:2180" ph="/// Loads a function pointer with the given name. ... " />
+            <marker date="1532615287077" expanded="true" signature="2228:2310" ph="{...}" />
+            <marker date="1532615287077" expanded="true" signature="2320:2454" ph="/// Frees the native library. Function pointers retrieved from this library will be void. ... " />
+            <marker date="1532615287077" expanded="true" signature="2484:2551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BulkExecutingSynchronizationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+          <folding>
+            <marker date="1532772029151" expanded="false" signature="6:213" ph="..." />
+            <marker date="1532772029151" expanded="true" signature="282:8593" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="383:8591" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="475:495" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="583:604" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="631:853" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="880:960" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="1275:5677" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="1519:1606" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2329:2387" ph="/* Define the state machine. ... */" />
+            <marker date="1532772029151" expanded="true" signature="2457:2618" ph="/* TODO On simulationReady -&gt; create one actor and create a broadcast message. ... */" />
+            <marker date="1532772029151" expanded="true" signature="2661:3008" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2732:2824" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="2871:2964" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3110:3315" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3170:3272" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3416:3633" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3487:3589" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="3649:3967" ph="/* This should be called after PhyNetContainer is ready, during the omnet++ initialization phase. ... */" />
+            <marker date="1532772029151" expanded="true" signature="4015:4524" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4095:4510" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4583:4772" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4644:4728" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4937:5197" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="4999:5183" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5231:5500" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5315:5456" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5550:5665" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="5687:5860" ph="/// Creates an actor in the actorsystem and in omnet++. ... " />
+            <marker date="1532772029151" expanded="true" signature="5969:6240" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6283:6349" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6441:6695" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6627:6685" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6743:6808" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="6855:7291" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7194:7281" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7301:7511" ph="///  ... " />
+            <marker date="1532772029151" expanded="true" signature="7606:8417" ph="{...}" />
+            <marker date="1532772029151" expanded="true" signature="7899:8381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallingThreadExecutor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetActorRefProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1532678462833" expanded="false" signature="6:154" ph="..." />
+            <marker date="1532678462833" expanded="true" signature="182:4640" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="242:4638" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="499:618" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="676:763" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="813:882" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="919:993" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1076:1166" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1223:1305" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="1315:1821" ph="/// Initialized SimulationActorRefs when necessary and LocalActorRefs otherwise. ... " />
+            <marker date="1532678462833" expanded="true" signature="2023:3395" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="2182:2439" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="2453:2711" ph="/* If the instance that needs to be created is ... */" />
+            <marker date="1532678462833" expanded="true" signature="2786:2989" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3450:3535" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3598:3688" ph="{...}" />
+            <marker date="1532678462833" expanded="true" signature="3751:3845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1532615287066" expanded="true" signature="34:224" ph="{...}" />
+            <marker date="1532615287066" expanded="true" signature="58:222" ph="{...}" />
+            <marker date="1532615287066" expanded="true" signature="95:219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EchoActor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <marker date="1532772001783" expanded="false" signature="6:31" ph="..." />
+            <marker date="1532772001783" expanded="true" signature="59:608" ph="{...}" />
+            <marker date="1532772001783" expanded="true" signature="116:606" ph="{...}" />
+            <marker date="1532772001783" expanded="true" signature="148:168" ph="{...}" />
+            <marker date="1532772001783" expanded="true" signature="227:476" ph="{...}" />
+            <marker date="1532772001783" expanded="true" signature="513:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallingThreadDispatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1521543012311" expanded="true" signature="1:402" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1521543012311" expanded="true" signature="410:464" ph="..." />
+            <marker date="1521543012311" expanded="true" signature="499:543" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="628:1181" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="643:793" ph="/// TBD  ... " />
+            <marker date="1521543012311" expanded="true" signature="929:949" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="959:1046" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1101:1175" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1187:1231" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1292:2027" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1307:1360" ph="/// TBD  ... " />
+            <marker date="1521543012311" expanded="true" signature="1437:1540" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1644:1664" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1674:1768" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1827:1870" ph="{...}" />
+            <marker date="1521543012311" expanded="true" signature="1880:1932" ph="/// TBD ... " />
+            <marker date="1521543012311" expanded="true" signature="1975:2021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <marker date="1532772144318" expanded="false" signature="6:140" ph="..." />
+            <marker date="1532772144318" expanded="true" signature="142:223" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1532772144318" expanded="true" signature="247:6493" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="251:694" ph="/* Paste your code into the respective callback functions. ... */" />
+            <marker date="1532772144318" expanded="true" signature="727:6491" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="846:929" ph="///     Creates the configured actor system. ... " />
+            <marker date="1532772144318" expanded="true" signature="984:2272" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2327:2375" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2529:4261" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="2759:3077" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="3354:3433" ph="/* Create and configure the PhyNet runtime. ... */" />
+            <marker date="1532772144318" expanded="true" signature="3773:3958" ph="/* Setup the PhyNet and the plugin. ... */" />
+            <marker date="1532772144318" expanded="true" signature="4436:4570" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4533:4560" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="4612:4989" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="4694:4766" ph="/* Example ... */" />
+            <marker date="1532772144318" expanded="true" signature="5124:5571" ph="Start" />
+            <marker date="1532772144318" expanded="true" signature="5180:5222" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="5406:5555" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="5578:6234" ph="Receiving" />
+            <marker date="1532772144318" expanded="true" signature="5685:5754" ph="{...}" />
+            <marker date="1532772144318" expanded="true" signature="6039:6218" ph="{...}" />
+            <marker date="1532772144318" expanded="false" signature="6240:6484" ph="Shutdown" />
+            <marker date="1532772144318" expanded="true" signature="6359:6468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetSimulation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
+          <folding>
+            <marker date="1532771601082" expanded="true" signature="6:78" ph="..." />
+            <marker date="1532771601082" expanded="true" signature="144:3208" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="176:3206" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="1428:2249" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2271:2328" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2362:2412" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2456:2496" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2568:2630" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2694:2750" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2801:2861" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="2918:2981" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3032:3089" ph="{...}" />
+            <marker date="1532771601082" expanded="true" signature="3159:3195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmnetScheduler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding>
+            <marker date="1532772294602" expanded="false" signature="6:176" ph="..." />
+            <marker date="1532772294602" expanded="true" signature="204:10674" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="211:318" ph="/* https://msdn.microsoft.com/en-us/library/367eeye0.aspx ... */" />
+            <marker date="1532772294602" expanded="true" signature="383:10672" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="971:1119" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="1194:1399" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1450:1595" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1605:1657" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="1687:2704" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="1893:2694" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2025:2304" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2517:2680" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="2910:3771" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="3286:3445" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="3780:4014" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="4120:4222" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="4231:4514" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="4644:4752" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="4761:5049" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="5199:5312" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="5321:5658" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="5832:5951" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="5960:6150" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="6238:6333" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="6342:6483" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="6547:6642" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="6651:6895" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7015:7127" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7137:7332" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7428:7534" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7543:7595" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7666:7718" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7761:7814" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7823:7875" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="7912:10666" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="7935:7995" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8063:8123" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8184:8244" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8313:8373" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8434:8494" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8554:8614" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8675:8735" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8799:8859" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="8922:8982" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9051:9111" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9175:9235" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9277:9523" ph="{...}" />
+            <marker date="1532772294602" expanded="true" signature="9308:9376" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9418:9486" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="9536:10050" ph="/// TBD ... " />
+            <marker date="1532772294602" expanded="true" signature="10270:10656" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
