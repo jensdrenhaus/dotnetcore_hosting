@@ -6,11 +6,23 @@ using Akka.Actor;
 using OmnetServices;
 using PhyNetFlow.Core.Actors;
 using PhyNetFlow.Core.Akka;
+using SampleApp;
 
 // ReSharper disable once CheckNamespace
 namespace PhyNetFlow.OMNeT
 {
 
+    /**
+     *
+     *
+     *
+     * IMPORTANT:
+     * Because there was no easy way to implement broadcasts, we now use the Network.
+     * The new scenario creates 3 actors, one that broadcasts, one that replies and one that does nothing.
+     * The plugin should only setup now, but not handle messages in omnet anymore. This is now done within the network.
+     *
+     * 
+     */
     public class Plugin : FSM<Plugin.State, Plugin.Data>, ILogReceive, ISimulationMessageDelegate
     {
         // ReSharper disable once InconsistentNaming
@@ -43,11 +55,13 @@ namespace PhyNetFlow.OMNeT
         private readonly IActorRef _selfRef;
         private ImmutableDictionary<ulong, IActorRef> _idToRef;
         private ImmutableDictionary<IActorRef, ulong> _refToId;
-        private IActorRef _echo1;
-        private IActorRef _echo2;
+        private IActorRef _echoBroadcaster;
+        private IActorRef _echoReplier;
+        private Network _network;
 
         public Plugin()
         {
+            _network = Context.System.GetNetwork();
             Context.System.Log.Info("Started " + typeof(Plugin).Name);
 
             // Configure self as the delegate.
@@ -126,8 +140,10 @@ namespace PhyNetFlow.OMNeT
                 {
                     Console.WriteLine("Creating actors/nodes in omnet and phynetflow.");
                     // Setup nodes/agents for omnet++ and phynetflow.
-                    _echo1 = CreateOMNeTActor(EchoActor.Props().WithDispatcher("calling-thread-dispatcher"));
-                    _echo2 = CreateOMNeTActor(EchoActor.Props().WithDispatcher("calling-thread-dispatcher"));
+                    // One that broadcasts, one that responds with echo, one that does nothing.
+                    _echoBroadcaster = CreateOMNeTActor(EchoActor.Props(isBroadcaster:true).WithDispatcher("calling-thread-dispatcher"));
+                    _echoReplier = CreateOMNeTActor(EchoActor.Props().WithDispatcher("calling-thread-dispatcher"));
+                    _echoIgnorer = CreateOMNeTActor(EchoActor.Props(shouldIgnore:true).WithDispatcher("calling-thread-dispatcher"));
                 }
             }));
 
@@ -149,7 +165,7 @@ namespace PhyNetFlow.OMNeT
                 if (nextState == State.Running)
                 {
                     Console.WriteLine("Setting state to running, sending message.");
-                    _echo1.Tell(new EchoActor.Echo(), _echo2);
+                    _echoBroadcaster.Tell(new EchoActor.EchoBroadcast(), _echoBroadcaster);
                 }
             });
 
@@ -177,13 +193,17 @@ namespace PhyNetFlow.OMNeT
         // ReSharper disable once InconsistentNaming
         private IActorRef CreateOMNeTActor(Props props)
         {
-            var id = OmnetSimulation.Instance().CreateNodeAndId();
             var actorRef = Context.ActorOf(props);
-
-            _idToRef = _idToRef.Add(id, actorRef);
-            _refToId = _refToId.Add(actorRef, id);
-
+            _network.CreateOmnetNode(actorRef);
             return actorRef;
+            /*
+                var id = OmnetSimulation.Instance().CreateNodeAndId();
+    
+                _idToRef = _idToRef.Add(id, actorRef);
+                _refToId = _refToId.Add(actorRef, id);
+    
+                return actorRef;
+            */
         } 
 
         private void OmnetOnOmneTStart()
@@ -228,6 +248,7 @@ namespace PhyNetFlow.OMNeT
         /// <returns></returns>
         public Task DelayMessageDelivery(IActorRef sender, IActorRef receiver, object message)
         {
+            /*
             Console.WriteLine("Sending {0} from {1} to {2}", message.GetType(), sender?.Path.Name, receiver?.Path.Name);
             var task = new Task(() => { });
             if (_refToId.TryGetValue(sender, out var senderId) && _refToId.TryGetValue(receiver, out var receiverId))
@@ -242,9 +263,14 @@ namespace PhyNetFlow.OMNeT
             }
 
             return task;
+            */
+            
+            // TODO: !! USES NETWORK
+            return Task.CompletedTask;
         }
 
         private int _nextMessageId;
         private readonly ConcurrentDictionary<int, Task> _waitingForOmnetToDelvierMessage = new ConcurrentDictionary<int, Task>();
+        private IActorRef _echoIgnorer;
     }
 }
